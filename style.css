@@ -1,0 +1,492 @@
+body {
+    width: 100%;
+
+}
+
+::selection {
+    
+    color: aliceblue;
+}
+
+.header {
+    background-color: rgb(166, 166, 166);
+}
+.main-content {
+    width: 96%;
+    margin: auto;
+}
+.main-content>.slider {
+    width: 100%;
+    height: 650px;
+    background-color: aquamarine;
+    position: relative;
+}
+.slider>img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.slider>.detail {
+    position: absolute;
+    width: 30%;
+    height: 70%;
+    /* background-color: rgb(84, 109, 109); */
+    top: 20%;
+    left: 10%;
+}
+.slider .detail>h1 {
+    display: flex;
+    justify-content: center;
+    color: #ffffffcc;
+    font-size: 70px;
+}
+.slider .detail>p {
+    color: #fff;
+}
+.btn-group>.btn-design {
+    border-radius: 10px;
+    margin: 10px 30px;
+}
+
+/* about us start */
+.about-us {
+    width: 90%;
+    margin: auto;
+    height: 705px;
+    /* background-color: blue; */
+
+}
+.brand-sponsor-logo>.logo,
+.brand-sponsor-logo>.logo-text {
+    height: 100px;
+    border: none;
+}
+
+.logo>.card,
+.logo-text>.card {
+    height: 100%;
+}
+
+.logo .card img {
+    width: 100%;
+    height: 100%;
+}
+.about-us .brand-sponsor-logo>.detail {
+    margin: 100px 20px;
+}
+
+.about-us .detail .show_about .title {
+    margin-top: 60px;
+}
+
+.about-us .detail .show_about .description {
+    margin-top: 40px;
+}
+/* about us end */
+
+
+
+
+/* Footer start */
+.footer {
+    width: 100%;
+    background-color: rgb(169, 181, 181);
+    padding: 20px 0;
+    position: absolute;
+    margin-left: -70px;
+}
+.footer .row {
+    width: 100%;
+    height: 100%;
+}
+.footer .img_and_detail {
+    display: flex;
+}
+.footer .block_2>a {
+    font-size: 15px;
+    text-decoration: none;
+    /* display: block; */
+}
+.footer .block_2 img {
+    width: 80px;
+    /* margin-top: 10px; */
+}
+
+.footer .block_2 h3 {
+    margin: 25px 10px;
+}
+.footer .block_2 .icon {
+    font-size: 26px;
+    margin-top: 15px;
+}
+.footer .block_2 .icon a {
+    margin-left: 3px;
+    color: #fff;
+}
+.footer .header-footer {
+    margin: 30px 10px;
+}
+
+.footer .header-footer .icon {
+    margin-top: 5px;
+}
+
+.footer .header-footer .icon>a {
+    text-decoration: none;
+    color: rgb(37, 35, 35);
+}
+.footer p {
+    margin-left: 300px;
+    color: rgb(78, 73, 73);
+}
+
+/* footer end */
+
+
+/* md screen start */
+@media screen and (min-width:768px) and (max-width:884px) {
+    .main-content {
+        width: 100%;
+        margin: auto;
+    }
+
+    .black {
+        width: 100%;
+        height: 100%;
+        background-color: black;
+        opacity: 0.5;
+    }
+
+    .main-content>.slider {
+        width: 100%;
+        height: 500px;
+        /* background-color: aquamarine; */
+        position: relative;
+    }
+
+    .slider>.detail {
+        position: absolute;
+        width: 60%;
+        height: 70%;
+        /* background-color: rgb(47, 43, 39); */
+        top: 20%;
+        left: 10%;
+    }
+
+    .slider>img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+
+    }
+
+    .slider .detail>h1 {
+        font-size: 50px;
+    }
+
+    .slider .detail p {
+        margin-top: 10px;
+    }
+
+    .btn-group>.btn-design {
+        border-radius: 10px;
+        margin: 10px 20px;
+
+    }
+
+    .brand-sponsor-logo>.logo {
+        width: 138px;
+        margin-left: 15px;
+
+    }
+
+    .brand-sponsor-logo>.logo,
+    .brand-sponsor-logo>.logo-text {
+        height: 100px;
+    }
+
+    .logo>.card,
+    .logo-text>.card {
+
+        height: 100%;
+    }
+
+    .logo {
+        margin: auto;
+        margin-left: 5px;
+    }
+
+    .about-us {
+        width: 100%;
+        height: 1500px;
+        /* background-color: red; */
+    }
+
+    .about-us .detail img {
+        width: 80%;
+
+        margin: -20px auto;
+        margin-left: 50px;
+    }
+
+    .about-us .detail .show_about {
+        margin-top: 70px;
+        width: 100%;
+    }
+
+    .about-us .detail .show_about h4 {
+        font-size: 32px;
+        margin-left: -10px;
+    }
+
+    .about-us .detail .show_about .title {
+        width: 100%;
+        margin-top: -1px;
+        font-size: 30px;
+        margin-left: -10px;
+
+    }
+
+    .about-us .detail .show_about .description {
+        width: 100%;
+        margin-top: 30px;
+        margin-left: -10px;
+        font-size: 24px;
+    }
+
+    .about-us .detail .show_about a {
+        margin-left: -10px;
+        font-size: 24px;
+    }
+
+    /* footer responsive */
+
+
+}
+
+
+
+/* Responsive Footer for Tablets (Min-width: 768px) */
+@media screen and (min-width: 768px) and (max-width: 991px) {
+    .footer {
+        padding: 40px 0;
+    }
+
+    .footer .block_2 h3 {
+        font-size: 20px;
+
+    }
+
+    .footer .block_2>a {
+        font-size: 16px;
+    }
+
+    .footer .block_2 img {
+        width: 50px;
+        height: 50px;
+    }
+
+    .footer {
+        margin-left: 10px;
+    }
+
+    .footer .response-footer {
+        margin-left: -20px;
+    }
+
+    .footer .header-footer h6 {
+        font-size: 18px;
+    }
+
+    /* footer para */
+    .footer p {
+        font-size: 14px;
+        margin-left: 30px;
+    }
+}
+
+/* Responsive Footer for Small Devices (Max-width: 767px) */
+@media screen and (max-width: 767px) {
+    .footer {
+        padding: 30px 0;
+    }
+
+    .footer .row {
+        display: block;
+    }
+
+    .footer .block_2 {
+        text-align: center;
+        margin-bottom: 30px;
+
+    }
+
+    .footer .block_2 img {
+        margin: auto;
+        display: block;
+        width: 50px;
+        height: 40px;
+    }
+
+    .footer .block_2 .img_and_detail {
+        font-size: 18px;
+        display: flex;
+        flex-direction: column;
+        margin-top: -20px;
+    }
+
+    .footer .block_2>a {
+        font-size: 14px;
+
+    }
+
+    .footer .header-footer {
+        text-align: center;
+    }
+
+    .footer .header-footer h6 {
+        font-size: 16px;
+    }
+
+    .footer .header-footer .icon>a {
+        font-size: 14px;
+    }
+
+    /* footer para */
+    .footer p {
+        font-size: 12px;
+        text-align: center;
+        margin-left: 0;
+    }
+}
+
+/* Extra small devices (max-width: 576px) */
+@media screen and (max-width: 576px) {
+    .footer .block_2 img {
+        width: 50px;
+    }
+
+    .footer .block_2 h3 {
+        font-size: 16px;
+    }
+
+    .footer .block_2>a {
+        font-size: 13px;
+    }
+
+    .footer .header-footer h6 {
+        font-size: 14px;
+    }
+
+    /* footer para */
+    .footer p {
+        font-size: 10px;
+        text-align: center;
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
+
+/* md screen end  */
+
+/* sm screen start */
+@media screen and (min-width:320px) and (max-width:430px) {
+    .main-content {
+        width: 100%;
+        margin: auto;
+    }
+
+    .black {
+        width: 100%;
+        height: 100%;
+        background-color: black;
+        opacity: 0.5;
+    }
+
+    .main-content>.slider {
+        width: 100%;
+        height: 450px;
+        /* background-color: aquamarine; */
+        position: relative;
+    }
+
+    .slider>img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .slider>.detail {
+        position: absolute;
+        width: 90%;
+        height: 80%;
+        /* background-color: rgb(47, 43, 39); */
+        top: 20%;
+        left: 5%;
+    }
+
+    .slider .detail>h1 {
+        font-size: 40px;
+    }
+
+    .slider .detail p {
+        margin-top: 20px;
+    }
+
+    .btn-group>.btn-design {
+        border-radius: 7px;
+        margin: 10px 20px;
+
+    }
+
+    .about-us {
+        width: 100%;
+        height: 1100px;
+        /* background-color: red; */
+    }
+
+    .about-us .detail img {
+        width: 100%;
+
+        margin: -10px auto;
+        margin-left: -20px;
+    }
+
+    .about-us .detail .show_about {
+        margin-top: 70px;
+        width: 100%;
+    }
+
+    .about-us .detail .show_about h4 {
+        font-size: larger;
+        margin-left: -10px;
+    }
+
+    .about-us .detail .show_about .title {
+        width: 100%;
+        margin-top: -1px;
+        font-size: medium;
+        margin-left: -10px;
+
+    }
+
+    .about-us .detail .show_about .description {
+        width: 100%;
+        margin-top: 30px;
+        margin-left: -10px;
+    }
+
+    .about-us .detail .show_about a {
+        margin-left: -10px;
+    }
+
+    .footer {
+        margin: auto;
+    }
+
+    .footer>p {
+        margin: auto;
+    }
+
+}
+
+/* sm screen end */
